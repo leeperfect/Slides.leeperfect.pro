@@ -2,11 +2,11 @@
 ---
 # === 全局配置 ===
 
-presentation:
-  theme: default
+presentation: 情景模拟
+
 theme: default
 # 网页标签标题
-title: 华图教育标准化课件
+title: 情景模拟
 # 开启淡入淡出，稳重
 transition: fade
 # 开启代码行号（可选）
