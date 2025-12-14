@@ -15,16 +15,11 @@ export default defineConfig({
       }
     },
     fontFamily: {
-      // 1. 定义正文默认字体 (Sans)：优先用思源黑体，没有就用系统黑体
-    sans: ['"Noto Sans SC"', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
-    
-    // 2. 定义衬线字体 (Serif)：用于申论材料
-    serif: ['"Noto Serif SC"', 'ui-serif', 'Georgia', 'serif'],
-    
-    // 3. 定义标题/展示字体 (Display)：用于大标题
-    // 这里设置只要用了 font-display，就会用最粗的黑体
-    display: ['"Noto Sans SC"', 'ui-sans-serif'],
-      // 如果你电脑没装 Rajdhani，它会自动回退到 sans
+      // 核心配置：MiSans 是老大
+      sans: ['"MiSans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      // 你的 F1 数字字体
+      display: ['Rajdhani', '"MiSans"', 'sans-serif'],
+      
       
     },
     boxShadow: {

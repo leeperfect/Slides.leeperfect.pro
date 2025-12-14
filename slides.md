@@ -443,3 +443,172 @@ layout: center
 
 # 这个也是一级标题
 ## 母题题本设计
+
+<h1 class="font-black text-6xl text-audi-red">我是自定义的奥迪红</h1>
+
+<p class="font-light text-xl text-gray-500">公务员考试申论解析</p>
+
+<p>这是一个普通文字，<span class="font-bold text-audi-red">这是重点</span>。</p>
+
+## 第三季标题
+
+### 母题精炼
+
+---
+
+# 一级标题
+
+## 二级标题
+
+### 三级标题
+
+---
+
+
+## 给定资料 1
+
+随着数字经济的快速发展，新就业形态不断涌现。外卖骑手、网约车司机等灵活就业群体规模日益壮大。然而，这一群体在享受就业便利的同时，也面临着职业伤害保障缺失、算法困局等现实痛点。
+
+相关部门指出，要坚持以人民为中心的发展思想，完善劳动保障政策，补齐制度短板。既要支持平台经济健康持续发展，又要切实维护劳动者合法权益，让新就业形态劳动者共享改革发展成果。
+
+---
+
+<div class="bg-white p-6 shadow-float border-l-4 border-audi-red">
+  <h3 class="text-audi-red font-bold mb-4">给定资料 1</h3>
+  
+  <div class="scroll-box">
+    <p>
+      例题1
+新人小李刚进单位，领导让你指导他的工作，但他平时工作马马虎虎，同事交代的工作也经常出错，你多次提醒他，也没有收到调整。后来同事对他不满，导致他情绪低落，他觉得是自己的经验太少，磨炼不够。你怎么劝说？请现场模拟。
+例题1
+新人小李刚进单位，领导让你指导他的工作，但他平时工作马马虎虎，同事交代的工作也经常出错，你多次提醒他，也没有收到调整。后来同事对他不满，导致他情绪低落，他觉得是自己的经验太少，磨炼不够。你怎么劝说？请现场模拟。
+审题
+主体及身份：小李（刚进单位-新人），你（指导人）
+问题情境：
+* 平时工作马马虎虎；
+* 同事交代工作经常出错；多次提醒无反馈；同事不满；
+* 他情绪低落；觉得经验少；磨练不足；
+
+问法：劝说，现场模拟
+
+开场白
+小李，现在忙吗？不忙的话，我们聊会儿。
+
+解决问题
+第一步：拉近距离（肯定、理解）
+小李，你是我们单位非常有潜力的新员工，领导也对你非常看重，希望你能快速成长。也确实，你是新人，经验这块很缺乏，我都理解。（理解肯定）但是我们都很重视你的，你看，领导上次还让你跟我一起参与下企业宣传的活动，说明领导多重视你呀，而且同事们之前也都愿意帮助你，是不是？所以啊，大家都是很看好你，希望你快速成长的。（举例）
+第二步：讲道理
+但是，小李，你想想你自己有没有问题呢？经验不足确实是一个问题，但是你工作中粗心大意，而且同事交代的工作也经常出错，这就是你的问题了，如果我们在工作中粗心，很可能解决不好群众的问题，而且也会给同事增加麻烦。（危害）你想想，上次让你统计一个退休群众的工龄，你把他算错了，是不是群众来到我们办公室投诉了你，而且，上次你帮同事做数据，一个小数点写错了，导致领导批评了同事。（举例）所以小李啊，咱们以后工作是不是要更细致一点、更好配合同事工作。
+第三步：给建议
+所以，小李，以后咱们对待工作一定要高度重视，不能马虎大意。另一方面要养成良好的工作习惯，比如工作对接时要及时回复反馈，又如在遇到数据、表格时要多检查几遍，有不确定的事情要及时向老同事或者领导请教，从细节处入手，一定能做得更好。此外，我也希望你能更加主动地与我沟通。当你遇到问题或者困惑时，不要害怕向我寻求帮助。我会尽力为你提供指导和支持。同时，我也希望你能及时反馈我的建议和提醒，这样我们才能更好地协作，共同解决问题。
+
+结束语
+呼应开场
+好了，小李，希望你能够振作起来，积极面对未来的工作。我也会一直支持你、帮助你。加油！那你先去忙吧，我就不打扰你了
+    </p>
+  </div>
+
+</div>
+
+---
+
+# 面试教学形式
+
+- 提高试听的方式方法
+- 专业性强
+- 小试牛刀
+  - 悬念
+  - Ai 赋能
+
+1. xues
+2. diert 
+3. yongbushnag 
+
+
+
+---
+---
+layout: center
+class: bg-[#0A0A0A] text-white
+---
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700;900&family=Noto+Sans+SC:wght@400;700&display=swap');
+
+/* 定义局部字体类 */
+.font-f1 { font-family: 'Rajdhani', sans-serif; }
+.font-cn { font-family: 'Noto Sans SC', sans-serif; }
+</style>
+
+<div class="w-full max-w-3xl mx-auto p-4 select-none">
+    
+    <div class="flex items-center gap-2 mb-2 opacity-80">
+        <div class="h-1 w-4 bg-[#A8A9AD]"></div>
+        <span class="text-xs font-bold text-[#A8A9AD] font-f1 tracking-wider">
+            03. AGENDA / 课程目录
+        </span>
+    </div>
+
+    <div class="bg-white/5 border border-white/10 p-8 shadow-2xl backdrop-blur-md relative overflow-hidden rounded-sm group hover:border-white/20 transition-all duration-500">
+        
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-[#FF1E1E]/10 to-transparent skew-x-[-20deg] pointer-events-none"></div>
+
+        <div class="flex justify-between items-center mb-8 relative z-10">
+            <h3 class="text-xl font-black text-[#FF1E1E] uppercase tracking-[0.2em] font-f1 italic drop-shadow-md">
+                Mission Briefing
+            </h3>
+            <div class="h-2 w-12 bg-[#FF1E1E] transform -skew-x-12 shadow-[0_0_10px_rgba(255,30,30,0.5)]"></div>
+        </div>
+        
+        <div class="space-y-4 relative z-10">
+            
+            <div class="flex items-center gap-5 group/item cursor-pointer hover:translate-x-2 transition-transform duration-300 ease-out">
+                <div class="w-9 h-9 flex items-center justify-center bg-white/10 text-[#A8A9AD] font-f1 font-bold text-lg group-hover/item:bg-[#FF1E1E] group-hover/item:text-white group-hover/item:shadow-[0_0_15px_rgba(255,30,30,0.6)] transition-all duration-300 transform -skew-x-12">
+                    <span class="transform skew-x-12">01</span>
+                </div>
+                <div class="flex-1 border-b border-white/10 pb-2 group-hover/item:border-[#FF1E1E]/50 transition-colors duration-300">
+                    <span class="text-lg font-bold text-gray-300 group-hover/item:text-white transition-colors duration-300 font-cn">
+                        第一部分 &nbsp; <span class="font-normal opacity-70 text-sm ml-2">考察重点</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-5 group/item cursor-pointer hover:translate-x-2 transition-transform duration-300 ease-out">
+                <div class="w-9 h-9 flex items-center justify-center bg-white/10 text-[#A8A9AD] font-f1 font-bold text-lg group-hover/item:bg-[#FF1E1E] group-hover/item:text-white group-hover/item:shadow-[0_0_15px_rgba(255,30,30,0.6)] transition-all duration-300 transform -skew-x-12">
+                    <span class="transform skew-x-12">02</span>
+                </div>
+                <div class="flex-1 border-b border-white/10 pb-2 group-hover/item:border-[#FF1E1E]/50 transition-colors duration-300">
+                    <span class="text-lg font-bold text-gray-300 group-hover/item:text-white transition-colors duration-300 font-cn">
+                        第二部分 &nbsp; <span class="font-normal opacity-70 text-sm ml-2">思路汇总</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-5 group/item cursor-pointer hover:translate-x-2 transition-transform duration-300 ease-out">
+                <div class="w-9 h-9 flex items-center justify-center bg-white/10 text-[#A8A9AD] font-f1 font-bold text-lg group-hover/item:bg-[#FF1E1E] group-hover/item:text-white group-hover/item:shadow-[0_0_15px_rgba(255,30,30,0.6)] transition-all duration-300 transform -skew-x-12">
+                    <span class="transform skew-x-12">03</span>
+                </div>
+                <div class="flex-1 border-b border-white/10 pb-2 group-hover/item:border-[#FF1E1E]/50 transition-colors duration-300">
+                    <span class="text-lg font-bold text-gray-300 group-hover/item:text-white transition-colors duration-300 font-cn">
+                        第三部分 &nbsp; <span class="font-normal opacity-70 text-sm ml-2">例题精讲</span>
+                    </span>
+                </div>
+            </div>
+
+             <div class="flex items-center gap-5 group/item cursor-pointer hover:translate-x-2 transition-transform duration-300 ease-out">
+                <div class="w-9 h-9 flex items-center justify-center bg-white/10 text-[#A8A9AD] font-f1 font-bold text-lg group-hover/item:bg-[#FF1E1E] group-hover/item:text-white group-hover/item:shadow-[0_0_15px_rgba(255,30,30,0.6)] transition-all duration-300 transform -skew-x-12">
+                    <span class="transform skew-x-12">04</span>
+                </div>
+                <div class="flex-1 border-b border-white/10 pb-2 group-hover/item:border-[#FF1E1E]/50 transition-colors duration-300">
+                    <span class="text-lg font-bold text-gray-300 group-hover/item:text-white transition-colors duration-300 font-cn">
+                        第四部分 &nbsp; <span class="font-normal opacity-70 text-sm ml-2">高分技巧</span>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+---
+
