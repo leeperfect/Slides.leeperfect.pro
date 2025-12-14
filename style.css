@@ -66,8 +66,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 顺便把二级标题 (##) 也改一下，比如改成银色 */
 .slidev-layout h2 {
-  color: #A8A9AD;
+  color: default;
   font-weight: 700;
+}
+
+/* 顺便把二级标题 (##) 也改一下，比如改成银色 */
+.slidev-layout h3 {
+  color: default;
+  font-weight: 500;
 }
 /* style.css - 正文全局排版 */
 

@@ -1,6 +1,6 @@
 ---
 # === 全局配置 ===
-presentation: 情景模拟
+presentation: 范例
 theme: default
 title: 情景模拟
 transition: none
