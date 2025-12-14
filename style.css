@@ -1,71 +1,82 @@
-/* 引入 Google Fonts: 思源黑体 (Sans) 和 思源宋体 (Serif) */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&family=Noto+Serif+SC:wght@400;700&display=swap');
+/* style.css - MiSans 全字重配置 */
 
-/* 阿里妈妈数黑体 (通过 @font-face 引入，因为 Google Fonts 没有) */
-/* 如果你不想下载文件，暂时可以用 Noto Sans SC 的 900 字重代替标题 */
-/* 这里我们先配置好基础的思源系列 */
-
-/* 全局默认字体设置 */
-:root {
-  font-family: 'Noto Sans SC', sans-serif;
+/* 100 - Thin (极细) */
+@font-face {
+  font-family: 'MiSans';
+  src: url('/fonts/MiSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
 }
 
-/* 针对 Slidev 的特殊覆盖 */
-.slidev-layout {
-  font-family: 'Noto Sans SC', sans-serif;
+/* 200 - ExtraLight (超细) */
+@font-face {
+  font-family: 'MiSans';
+  src: url('/fonts/MiSans-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
 }
 
-/* 标题默认加粗，更有质感 */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Sans SC', sans-serif;
-  font-weight: 900; /* 使用最粗的字重，模拟奥迪风格 */
-  letter-spacing: -0.02em; /* 字距稍微收紧一点点，更现代 */
+/* 300 - Light (细体) */
+@font-face {
+  font-family: 'MiSans';
+  src: url('/fonts/MiSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
 
-/* 专门定义一个类，用于“申论材料” */
-.font-material {
-  font-family: 'Noto Serif SC', serif;
+/* 400 - Regular / Normal (常规) */
+@font-face {
+  font-family: 'MiSans';
+  /* 优先用 Regular，如果没有可以用 Normal */
+  src: url('/fonts/MiSans-Regular.ttf') format('truetype');
   font-weight: 400;
+  font-style: normal;
 }
 
-
-/* style.css */
-:root {
-  --audi-red: #FF1E1E;
-  --audi-silver: #A8A9AD;
-  --audi-black: #0A0A0A;
-  --audi-cloud: #F0EEE9;
+/* 500 - Medium (中等) */
+@font-face {
+  font-family: 'MiSans';
+  src: url('/fonts/MiSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
-/* 奥迪风格卡片 */
-.audi-card {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--audi-silver);
-  border-left: 4px solid var(--audi-red);
-  padding: 1rem;
-  border-radius: 4px;
-  color: white;
-  backdrop-filter: blur(10px);
+/* 600 - Semibold / Demibold (半粗) */
+@font-face {
+  font-family: 'MiSans';
+  src: url('/fonts/MiSans-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
 }
 
-/* 强制修正：防止某些元素找不到变量 */
-.text-audi-red { color: var(--audi-red); }
-.text-audi-silver { color: var(--audi-silver); }
-.bg-audi-red { background-color: var(--audi-red); }
-
-
-/* style.css */
-
-/* 解释：.slidev-layout h1 代表“幻灯片里的一级标题” */
-.slidev-layout h1 {
-  color: #FF1E1E;          /* 强制变成奥迪红 */
-  font-weight: 900;        /* 加粗，更有气势 */
-  letter-spacing: 0em;   /* 字间距稍微拉开一点，更高级 */
-  text-transform: uppercase; /* (可选) 英文强制大写，像 F1 赛车风格 */
-}
-
-/* 顺便把二级标题 (##) 也改一下，比如改成银色 */
-.slidev-layout h2 {
-  color: #A8A9AD;
+/* 700 - Bold (粗体) */
+@font-face {
+  font-family: 'MiSans';
+  src: url('/fonts/MiSans-Bold.ttf') format('truetype');
   font-weight: 700;
+  font-style: normal;
+}
+
+/* 900 - Heavy (超粗 - 用于超大标题) */
+@font-face {
+  font-family: 'MiSans';
+  src: url('/fonts/MiSans-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* === 全局强制应用 === */
+:root {
+  font-family: 'MiSans', sans-serif !important;
+}
+
+.slidev-layout {
+  font-family: 'MiSans', sans-serif !important;
+}
+
+/* 让标题默认使用 Heavy (900) 或 Bold (700)，更具冲击力 */
+h1, h2, h3 {
+  font-family: 'MiSans', sans-serif !important;
+  font-weight: 900; /* 使用 Heavy 字重 */
+  letter-spacing: -0.03em;
 }
