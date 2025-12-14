@@ -1,14 +1,13 @@
-
 ---
 # === 全局配置 ===
 
 presentation: 情景模拟
-
+# 主题设置
 theme: default
 # 网页标签标题
 title: 情景模拟
 # 开启淡入淡出，稳重
-transition: fade
+transition: none
 # 开启代码行号（可选）
 lineNumbers: true
 # 开启绘图功能（可在屏幕上画圈）
@@ -19,6 +18,8 @@ layout: cover
 
 ---
 # **情景模拟**
+
+---
 
 
 # **目录**
@@ -832,3 +833,127 @@ layout: cover
 # 
 
 # 第五部分  课程总结
+
+
+
+---
+layout: center
+class: bg-audi-black text-white
+---
+
+<div class="w-full max-w-3xl mx-auto p-4">
+  
+  <span class="text-xs font-bold text-audi-silver block mb-2 opacity-80">
+    03. 课程目录 / Agenda
+  </span>
+
+  <div class="bg-white/5 border border-white/10 p-8 shadow-2xl backdrop-blur-sm">
+    
+    <h3 class="text-lg font-bold text-audi-red uppercase tracking-[0.2em] mb-8 border-l-4 border-audi-red pl-4">
+      Mission Briefing
+    </h3>
+
+    <div class="space-y-5">
+
+      <div v-click class="flex items-center gap-6 group cursor-pointer hover:translate-x-2 transition-transform duration-300">
+        <div class="w-10 h-10 flex items-center justify-center bg-white/10 text-audi-silver font-bold group-hover:bg-audi-red group-hover:text-white transition-colors skew-x-[-12deg]">
+          <span class="skew-x-[12deg]">01</span>
+        </div>
+        <div class="flex-1 border-b border-white/10 pb-2 group-hover:border-audi-red/50 transition-colors">
+          <span class="text-base font-bold text-gray-200 group-hover:text-white">第一部分 · 考察重点</span>
+        </div>
+      </div>
+
+      <div v-click class="flex items-center gap-6 group cursor-pointer hover:translate-x-2 transition-transform duration-300">
+        <div class="w-10 h-10 flex items-center justify-center bg-white/10 text-audi-silver font-bold group-hover:bg-audi-red group-hover:text-white transition-colors skew-x-[-12deg]">
+          <span class="skew-x-[12deg]">02</span>
+        </div>
+        <div class="flex-1 border-b border-white/10 pb-2 group-hover:border-audi-red/50 transition-colors">
+          <span class="text-base font-bold text-gray-200 group-hover:text-white">第二部分 · 思路汇总</span>
+        </div>
+      </div>
+
+      <div v-click class="flex items-center gap-6 group cursor-pointer hover:translate-x-2 transition-transform duration-300">
+        <div class="w-10 h-10 flex items-center justify-center bg-white/10 text-audi-silver font-bold group-hover:bg-audi-red group-hover:text-white transition-colors skew-x-[-12deg]">
+          <span class="skew-x-[12deg]">03</span>
+        </div>
+        <div class="flex-1 border-b border-white/10 pb-2 group-hover:border-audi-red/50 transition-colors">
+          <span class="text-base font-bold text-gray-200 group-hover:text-white">第三部分 · 例题精讲</span>
+        </div>
+      </div>
+
+      <div v-click class="flex items-center gap-6 group cursor-pointer hover:translate-x-2 transition-transform duration-300">
+        <div class="w-10 h-10 flex items-center justify-center bg-white/10 text-audi-silver font-bold group-hover:bg-audi-red group-hover:text-white transition-colors skew-x-[-12deg]">
+          <span class="skew-x-[12deg]">04</span>
+        </div>
+        <div class="flex-1 border-b border-white/10 pb-2 group-hover:border-audi-red/50 transition-colors">
+          <span class="text-base font-bold text-gray-200 group-hover:text-white">第四部分 · 高分技巧</span>
+        </div>
+      </div>
+
+      <div v-click class="flex items-center gap-6 group cursor-pointer hover:translate-x-2 transition-transform duration-300">
+        <div class="w-10 h-10 flex items-center justify-center bg-white/10 text-audi-silver font-bold group-hover:bg-audi-red group-hover:text-white transition-colors skew-x-[-12deg]">
+          <span class="skew-x-[12deg]">05</span>
+        </div>
+        <div class="flex-1 border-b border-white/10 pb-2 group-hover:border-audi-red/50 transition-colors">
+          <span class="text-base font-bold text-gray-200 group-hover:text-white">第五部分 · 课程总结</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+---
+layout: center
+# 强制指定背景色，防止漏色
+class: bg-black text-white
+---
+
+<div class="w-full max-w-3xl mx-auto p-4 select-none">
+  
+  <div class="text-xs font-bold text-gray-400 block mb-2 opacity-80">
+    03. 课程目录 / Agenda
+  </div>
+
+  <div class="bg-gray-900/80 border border-gray-700 p-8 shadow-2xl backdrop-blur-sm relative overflow-hidden">
+    
+    <div class="absolute -top-10 -right-10 w-32 h-32 bg-red-600 blur-[60px] opacity-20"></div>
+
+    <h3 class="text-lg font-bold text-red-600 uppercase tracking-[0.2em] mb-8 border-l-4 border-red-600 pl-4 z-10 relative">
+      Mission Briefing
+    </h3>
+
+    <div class="space-y-6 relative z-10">
+
+      <div v-click class="flex items-center gap-6 group cursor-pointer">
+        <div class="w-10 h-10 flex items-center justify-center bg-gray-800 text-gray-400 font-bold group-hover:bg-red-600 group-hover:text-white transition-all duration-300 transform -skew-x-12">
+          <span class="transform skew-x-12">01</span>
+        </div>
+        <div class="flex-1 border-b border-gray-700 pb-2 group-hover:border-red-600/50 transition-colors">
+          <span class="text-base font-bold text-gray-200 group-hover:text-white transition-colors">第一部分 · 考察重点</span>
+        </div>
+      </div>
+
+      <div v-click class="flex items-center gap-6 group cursor-pointer">
+        <div class="w-10 h-10 flex items-center justify-center bg-gray-800 text-gray-400 font-bold group-hover:bg-red-600 group-hover:text-white transition-all duration-300 transform -skew-x-12">
+          <span class="transform skew-x-12">02</span>
+        </div>
+        <div class="flex-1 border-b border-gray-700 pb-2 group-hover:border-red-600/50 transition-colors">
+          <span class="text-base font-bold text-gray-200 group-hover:text-white transition-colors">第二部分 · 思路汇总</span>
+        </div>
+      </div>
+
+      <div v-click class="flex items-center gap-6 group cursor-pointer">
+        <div class="w-10 h-10 flex items-center justify-center bg-gray-800 text-gray-400 font-bold group-hover:bg-red-600 group-hover:text-white transition-all duration-300 transform -skew-x-12">
+          <span class="transform skew-x-12">03</span>
+        </div>
+        <div class="flex-1 border-b border-gray-700 pb-2 group-hover:border-red-600/50 transition-colors">
+          <span class="text-base font-bold text-gray-200 group-hover:text-white transition-colors">第三部分 · 例题精讲</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
